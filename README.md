@@ -8,3 +8,4 @@ GHS30 is the first global fine human settlement extents derived from the global 
 ![image](https://github.com/oucong1004/globalHumanSettlement/assets/164853368/606f7fc7-a847-46c6-8bbd-bfd24d06f696)
 
 ![image](https://github.com/oucong1004/globalHumanSettlement/assets/164853368/5be0e9ea-2a1e-496c-9f05-ea4951f7dc91)
+Fig. Spatiotemporal patterns of the expansion of global urban-rural settlement during 1985-2020. The global distribution patterns of the four settlement types in 1985 and 2020 (a-b). Both global maps are at 0.05° resolution for a better illustration. Inset pies in a, b represents the global proportions of different settlement types in the corresponding year. The total areas of global urban/rural settlements (c-d) in the corresponding year. The expansion areas of human settlement and their typological characteristics in the top 20 countries and all continents during 1985-2020 (e-f).
