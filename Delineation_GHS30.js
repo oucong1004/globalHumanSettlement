@@ -71,7 +71,7 @@ var ISA_KDE_mosaic = ISA_KDE_imgs.mosaic();
 //Batch output
 for (var id=0; id<=fishList.size(); id++){
   var selFish =  ee.Feature(fishList.get(id));
-  var roiBound = selFish.geometry().buffer(1000).bounds();
+  var roiBound = selFish.geometry();
   var ISA_fish = ISA_year.clip(roiBound).unmask(0, true);
   var ISA_KDE_fish = ISA_KDE_mosaic.clip(roiBound).unmask(0, true); 
   var ISA_CA = CA_neighborhood(3, ISA_fish).gt(0.3);
@@ -102,7 +102,7 @@ var ISA_KDE_CA_mosaic = ISA_KDE_CA_imgs.mosaic();
 //Batch output
 for (var id=0; id<=fishList.size(); id++){
   var selFish =  ee.Feature(fishList.get(id));
-  var roiBound = selFish.geometry().buffer(1000).bounds();
+  var roiBound = selFish.geometry();
   var ISA_KDE_CA_fish = ISA_KDE_CA_mosaic.clip(roiBound).unmask(0, true);
   var ISA_KDE_CA_MP = erode(ISA_KDE_CA_fish, 100).clip(roiBound).unmask(0,true);
   ISA_KDE_CA_MP = dilate(ISA_KDE_CA_MP, 100).clip(roiBound).unmask(0,true);
